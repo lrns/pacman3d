@@ -1,0 +1,67 @@
+PACMAN game by Laurynas Sukys (081365012)
+
+---------------------------------
+Launching game
+
+To run the game execute run.sh shell script, e.g.:
+$ ./run.sh
+
+This game supports custom maps, to use a custom map,
+pass file name as an argument to run.sh, e.g.:
+$ ./run.sh map2.txt
+
+If no map is given, 'map.txt' is used by default.
+
+
+-------------------------------------
+Map Editing
+
+You can edit an existing map or create your own one.
+See map.txt or map2.txt for an example.
+
+File format (each symbol represent game maze square):
+# - wall
+  - empty square
+. - food item
+x - power up
+G - starting point of ghosts
+P - starting point of PacMan
+
+
+------------------------------------
+Game Structure
+
+Game has unlimited number of levels. Ghosts' speed increases
+in every level. The same map is used in all levels.
+
+
+-------------------------------------
+Controls
+
+Arrows - move Pac-Man
+F5 - reset game (go to start screen)
+ESC - exit
+P - pause the game
+F1 - toggle fullscreen
+Space in start screen - start the game
+
+------------------------------------
+
+Overview of features
+
+All basic features implemented.
+Default map is similar to original Pac-Man map,
+movement, powerups behaviour, colours of characters are
+ also similar to the original Pac-Man.
+
+
+
+
+-------------------------------------
+Advanced features:
+1. Ghosts return to home when eaten
+2. Texturing
+3. Bitmap fonts
+4. Maze loading from a text file
+5. Game loading screens with animation
+6.
